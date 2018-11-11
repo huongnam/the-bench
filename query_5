@@ -1,0 +1,17 @@
+{
+  "select": "first_name, age",
+  "where_or":
+    [
+      {
+        "left": "age",
+        "op": "<",
+        "right": "5"
+      }, {
+        "left": "age",
+        "op": ">",
+        "right": "101"
+      }
+    ],
+  "order": "age"
+}
+
